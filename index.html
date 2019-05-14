@@ -52,7 +52,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.1">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico?v=7.1.1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.1">
 
 
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.1">
@@ -199,7 +199,7 @@
   </div>
 
   <div class="site-nav-toggle">
-    <button aria-label="Toggle navigation bar">
+    <button aria-label="Navigationsleiste an/ausschalten">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -227,7 +227,7 @@
 
     
 
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Startseite</a>
 
   </li>
         
@@ -244,7 +244,7 @@
 
     
 
-    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>About</a>
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>Über</a>
 
   </li>
         
@@ -261,7 +261,7 @@
 
     
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Tags</a>
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Schlagwörter</a>
 
   </li>
         
@@ -278,7 +278,7 @@
 
     
 
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Categories</a>
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Kategorien</a>
 
   </li>
         
@@ -295,7 +295,7 @@
 
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archiv</a>
 
   </li>
         
@@ -312,7 +312,7 @@
 
     
 
-    <a href="/schedule/" rel="section"><i class="menu-item-icon fa fa-fw fa-calendar"></i> <br>Schedule</a>
+    <a href="/schedule/" rel="section"><i class="menu-item-icon fa fa-fw fa-calendar"></i> <br>Zeitplan</a>
 
   </li>
         
@@ -436,16 +436,20 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2019-05-14 20:56:18" itemprop="dateCreated datePublished" datetime="2019-05-14T20:56:18+08:00">2019-05-14</time>
+              <time title="Erstellt: 2019-05-14 20:56:18 / Geändert am: 21:31:15" itemprop="dateCreated datePublished" datetime="2019-05-14T20:56:18+08:00">2019-05-14</time>
             
 
+            
+              
+
+              
             
           </span>
 
@@ -480,7 +484,32 @@
       
         
           
-            
+            <h3 id="模块一：《GitHub-Hexo个人博客搭建问题记录》"><a href="#模块一：《GitHub-Hexo个人博客搭建问题记录》" class="headerlink" title="模块一：《GitHub+Hexo个人博客搭建问题记录》"></a>模块一：《GitHub+Hexo个人博客搭建问题记录》</h3><hr>
+<h5 id="有用链接"><a href="#有用链接" class="headerlink" title="有用链接"></a>有用链接</h5><p><a href="http://www.cnblogs.com/dantefung/p/d8c48ba8030bcab7cfc364d423186fee.html" target="_blank" rel="noopener">《Hexo+github搭建个人博客》</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="noopener">GitHub+Hexo 搭建个人网站详细教程</a></p>
+<p><a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="noopener">常用主题</a></p>
+<p><a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">next主题</a></p>
+<p>Q1：GitHub Pages域名太长</p>
+<p>A1：设置为sisung.github.io即可</p>
+<p>Q2：GitHub与Hexo设置不同步</p>
+<p>A2：在_config.yml文件中注意空格的问题，由于无法确认中英文输入法，最好从其它行中复制</p>
+<p>Q3：fatal: could not create work tree dir ‘themes/apollo’: Permission denied</p>
+<p>A3：可能是Git Bash的权限问题，幸好CMD可以调用Bash，因此就可以以管理员身份运行CMD，进行主题的下载</p>
+<p>Q4：注意站点设置和主题设置这两个主题的区别</p>
+<p>A4：:ok:</p>
+<p>Q5：如何避免每次提交都需要输入用户名和密码？</p>
+<p>A5：SSH</p>
+<p>Q6：next主题高级设置</p>
+<p>A6：Schemes设置在179-183行    hexo g和hexo d</p>
+<p>Q7：发布文章流程</p>
+<p>A7：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo n &quot;zhuxingsheng_cn&quot;</span><br><span class="line">之后就会发现在blog根目录下的source文件夹中的_post文件夹中多了一个zhuxingsheng_cn.md 文件</span><br><span class="line">hexo s --debug 在本地浏览器的localhost:4000 预览博文效果</span><br></pre></td></tr></table></figure>
+<p>Q8：图床调研</p>
+<p>A8：有哪些好用的图床？新浪微博？七牛云？</p>
+<p><a href="https://www.zhihu.com/search?type=content&amp;q=图床" target="_blank" rel="noopener">知乎-图床</a></p>
+<p><a href="http://www.tietuku.com/upload" target="_blank" rel="noopener">贴图库</a></p>
+<p><a href="https://github.blog/2008-12-19-github-ribbons/" target="_blank" rel="noopener">Fork me on Github</a></p>
+
           
         
       
@@ -578,14 +607,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2019-05-14 11:15:00" itemprop="dateCreated datePublished" datetime="2019-05-14T11:15:00+08:00">2019-05-14</time>
+              <time title="Erstellt: 2019-05-14 11:15:00" itemprop="dateCreated datePublished" datetime="2019-05-14T11:15:00+08:00">2019-05-14</time>
             
 
             
@@ -711,7 +740,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2019/05/13/zhuxingsheng_cn/" class="post-title-link" itemprop="url">Untitled</a>
+                <a href="/2019/05/13/zhuxingsheng_cn/" class="post-title-link" itemprop="url">Unbenannt</a>
               
             
           </h1>
@@ -729,14 +758,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2019-05-13 19:21:38 / Modified: 19:45:04" itemprop="dateCreated datePublished" datetime="2019-05-13T19:21:38+08:00">2019-05-13</time>
+              <time title="Erstellt: 2019-05-13 19:21:38 / Geändert am: 19:45:04" itemprop="dateCreated datePublished" datetime="2019-05-13T19:21:38+08:00">2019-05-13</time>
             
 
             
@@ -885,7 +914,7 @@
                   <a href="/archives/">
                 
                     <span class="site-state-item-count">3</span>
-                    <span class="site-state-item-name">posts</span>
+                    <span class="site-state-item-name">Artikel</span>
                   </a>
                 </div>
               
@@ -995,7 +1024,7 @@
 </div>
 
 
-  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
+  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
 
 
 
@@ -1003,7 +1032,7 @@
 
 
 
-  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.1.1</div>
+  <div class="theme-info">Design – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.1.1</div>
 
 
 
