@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sisung.github.io/"/>
-  <updated>2019-05-15T08:41:09.463Z</updated>
+  <updated>2019-05-15T08:44:51.080Z</updated>
   <id>https://sisung.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://sisung.github.io/2019/05/15/%E7%83%9F%E8%8A%B1%E4%B8%89%E6%9C%88%E4%B8%8B%E6%89%AC%E5%B7%9E/"/>
     <id>https://sisung.github.io/2019/05/15/烟花三月下扬州/</id>
     <published>2019-05-15T03:52:19.000Z</published>
-    <updated>2019-05-15T08:41:09.463Z</updated>
+    <updated>2019-05-15T08:44:51.080Z</updated>
     
     <summary type="html">
     
@@ -36,7 +36,9 @@
       <category term="文学" scheme="https://sisung.github.io/categories/%E6%96%87%E5%AD%A6/"/>
     
     
-      <category term="宋词，苏轼" scheme="https://sisung.github.io/tags/%E5%AE%8B%E8%AF%8D%EF%BC%8C%E8%8B%8F%E8%BD%BC/"/>
+      <category term="宋词" scheme="https://sisung.github.io/tags/%E5%AE%8B%E8%AF%8D/"/>
+    
+      <category term="苏轼" scheme="https://sisung.github.io/tags/%E8%8B%8F%E8%BD%BC/"/>
     
   </entry>
   
